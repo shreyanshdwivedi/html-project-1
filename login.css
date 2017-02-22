@@ -1,0 +1,175 @@
+.ad1{
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.top-button
+{
+  height:50px;
+  width:180px;
+  background-color:white;
+  border-radius:2px;
+}
+.ad-button
+{
+height:50px;
+width:180px;
+background-color:white;
+border:2px solid #E3242B;
+border-radius:10px;
+}
+
+.ad-button:hover
+{
+  background-color:#E3242B;
+  color:white;
+}
+.hidead{
+  opacity: 0;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  position: fixed;
+}
+.ad-buttonh
+{
+  opacity: 0;
+  transition: opacity 0s linear;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  position: fixed;
+  margin-top:0px;
+  margin-left:0px;
+}
+.showad
+{
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  border:5px solid #E3242B;
+  border-radius: 20px;
+  position: fixed;
+}
+.ad-button
+{
+  opacity: 1;
+  transition: opacity 0s linear;
+  -webkit-transition: opacity 0s linear;
+  -moz-transition: opacity 0s linear;
+  -o-transition: opacity 0s linear;
+  position: fixed;
+  margin-top:260px;
+  margin-left:500px;
+}
+.but{
+height:50px;
+width:200px;
+background:url("d5HuK.png");
+color:black;
+}
+
+
+#myimg{
+  margin-top: 400px;
+  border-radius: 20px;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.hide {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  margin-left: 450px;
+  margin-top: 0px;
+  position: fixed;
+}
+.show {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  margin-left: 450px;
+  margin-top: 0px;
+  position: fixed;
+
+}
+
+h1,h3,h4,.center{text-align:center;
+line-width:150%;}
+
+form{ position=fixed;}
+h5
+{line-width:150%;}
+a:hover
+{ color:pink;}
+
+input[type=submit]
+{
+align="center";
+background-color:white;
+color="blue";
+border-radius="100";
+border:2px solid blue;
+cursor:pointer;
+border-radius:40px;
+transition-duration:0.5s;
+}
+
+.button1:hover
+{
+background-color:pink;
+color:white;
+}
+
+
+
+#img-login{
+  height:30px;
+  width:30px;
+  margin-left: 0px;
+  margin-top: 100px;
+  position: fixed;
+}
+
+
+/*signup css*/
+
+
+#img-signup{
+  height:30px;
+  width:30px;
+  margin-left: 0px;
+  margin-top: 50px;
+  position: fixed;
+}
+.hides {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  margin-left: 450px;
+  margin-top: 0px;
+  position: fixed;
+
+}
+.shows {
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  margin-left: 450px;
+  margin-top: 0px;
+  position: fixed;
+
+}

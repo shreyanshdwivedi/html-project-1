@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body background="background.jpg" scroll="no" style="overflow:hidden;">
+  <script type="text/javascript" src="login.js"/></script>
+<script type="text/javascript" src="signup.js"/></script>
+<script type="text/javascript" src="changeimg.js"/></script>
+<table cellspacing=0 cellpadding=0 align="center">
+<tr>
+<td background="d5HuK.png"><input class="top-button" type="button" value="Home"></input></td>
+<td background="d5HuK.png"><input class="top-button" type="button" value="Contact Us"></input></td>
+<td background="d5HuK.png"><input class="top-button" type="button" value="About"></input></td>
+<td background="d5HuK.png"><a href="GaMe.html" style="text-decoration:none;" target="_blank"><input class="top-button" type="button" value="Play Here!!"></a></input></td>
+</tr>
+</table>
+<img src="login.png" id="img-login" onclick="visibility()"/>
+
+<img src="signup.png" id="img-signup" onclick="visibilitys()"/>
+
+
+<div class="ad1">
+  <img id="ad" class="showad" src="img1.jpg" height=250px width=350px/>
+</div>
+
+
+<div id="ad-button">
+<input type="button" id="adbutton1" class="ad-button" value="Back" onclick="previousimg()" />
+<input type="button" id="adbutton2" class="ad-button" value="Next" onclick="nextimg()" style="margin-left:680px;"/>
+</div>
+
+
+<!-- LOGIN -->
+<div id="d-login" class="hide" style="width:0px;height:0px;padding:0px;border:2px solid yellowgreen;">
+<img src="unchecked.png" height="20px" width="20px" style="margin-left:400px;margin-top:0px;" onclick="hide()"/>
+<h1>Log In</h1>
+
+<br>
+<h3>New here?<a onclick="visibilitys()">Sign Up</a></h3><br>
+<h5>
+<form name="fm" action="#" onsubmit="return validate()">
+<table align="center">
+<tr><td>Username or Email: </td><td>
+<input type="text" placeholder="Username or Email" name="name"/></td><td><span id="nameloc"></span></td></tr>
+
+<tr><td>Password: </td><td>
+<input type="password" placeholder="Password" name="pass"/></br></td><td><span id="pas"></span></td></tr>
+
+<tr><td><input type="checkbox">Remember Me</input></td><td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="forgot_password.html">Forgot Password?</a></td><tr>
+</table>
+<h4>
+<center><input class="button button1" type="submit" value="Log In"/> </center>
+</h4>
+</form>
+</h5>
+<span id="ss" style="margin-left:100px;">
+  <font lang="Times New Roman"><b>&nbsp&nbsp&nbsp&nbsp&nbsp- - - - OR - - - -</b></font><br><br>
+  <a href="http://www.facebook.com" target="_blank">
+  <img src="fblogin.jpg" height=30px width=200px style="margin-left:100px;" onclick="http://www.facebook.com">
+ </a>
+</span>
+
+</div>
+
+<div id="d-signup" class="hides" style="width:0px;height:0px;padding:0px;border:2px solid yellowgreen;">
+  <img src="unchecked.png" height="20px" width="20px" style="margin-left:400px;margin-top:0px;" onclick="hides()"/>
+
+  <h1>Sign Up</h1>
+  <br>
+  <h3>Already have an account?<a onclick="visibility()">Log In</a> here.</h3>
+  <form name="fms" action="#" onsubmit="return validates()">
+  <h5>
+  <table align="center">
+  <tr><td>Username or Email: </td><td>
+  <input type="text" placeholder="Username or Email" name="name"/></td><td><span id="nameloc"></span></td></tr>
+ <tr><td>Email</td>   <td><input type="email" name="email" placeholder="Email"></input></td><td><span id="email1"></span></td><br>
+  </tr>
+  <tr><td>Password: </td><td>
+  <input type="password" placeholder="Password" name="pass"/></br></td><td><span id="pas"></span></td></tr>
+  <tr>
+  <td>Confirm Password</td>   <td><input type="password" name=pass2 placeholder="Type your password again"></input></td><td><span id="pas2"></span></td><br>
+  </tr>
+  </table>
+  </h5>
+  <h4>
+  <input class="button button1" type="submit" value="Sign Up"/>
+  </h4>
+  </form>
+
+</div>
+<!--
+<div id="my-img" class="hidei">
+  <img src="mypic.jpg" alt="mypic" id="my-img" height="500px" width="500px"/>
+
+</div>
+-->
+
+
+<div>
+<a href="https://www.facebook.com/shreyansh.dwivedi.18" target="_blank">
+<img src="mypic.jpg" alt="mypic" id="myimg" height="60px" width="60px" onmouseover="imgchange()" onmouseout="img()" />
+ <figcaption>Developer</figcaption>
+</a>
+</div>
+
+<script>
+function imgchange()
+{
+  var x=document.getElementById("myimg");
+  x.src="fb.png";
+}
+function img()
+{
+  var y=document.getElementById("myimg");
+  y.src="mypic.jpg";
+}
+
+</script>
+
+</body>
+</html>

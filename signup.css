@@ -1,0 +1,52 @@
+
+#img-signup{
+  height:30px;
+  width:30px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  position: fixed;
+}
+.hide {
+  opacity: 0;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+h3,h1,h4
+{
+text-align:center;
+line-width:150%;
+}
+a:hover
+{ color:pink;}
+
+input[type=submit]
+{
+align="center";
+background-color:white;
+color="blue";
+border-radius="100";
+border:2px solid blue;
+cursor:pointer;
+border-radius:40px;
+transition-duration:0.5s;
+}
+
+.button1:hover
+{
+background-color:pink;
+color:white;
+}

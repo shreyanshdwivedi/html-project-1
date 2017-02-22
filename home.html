@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function redirect()
+{
+document.getElementById("red").innerHTML='<script>function validate(){var name=document.fm.name.value;var pass=document.fm.pass.value;var status=false;if(name.length<1){	document.getElementById("nameloc").innerHTML="<img height=15 width=15 src=/'unchecked.png/'></img>";status=false;}else{document.getElementById("nameloc").innerHTML="<img height=15 width=15 src=/'checked.png/'></img>";status=true;}if(pass.length<6){document.getElementById("pas").innerHTML="<img height=15 width=15 src=/'unchecked.png/'></img>";status=false;}else{document.getElementById("pas").innerHTML="<img height=15 width=15 src=/'checked.png/'></img>";status=true;}return status;}</script><style>body{border:2px dotted blue;border-style:dotted;}h1,h3,h4,.center{text-align:center;line-width:150%;}form{ position=fixed;}h5{line-width:150%;}a:hover{ color:pink;}input[type=submit]{align="center";background-color:white;color="blue";border-radius="100";border:2px solid blue;cursor:pointer;border-radius:40px;transition-duration:0.5s;}.button1:hover{background-color:pink;color:white;}</style><h1>Log In</h1><br><h3>New here?<a href="signup.html">Sign Up</a></h3><br><h5><form name="fm" action="#" onsubmit="return validate()"><table align="center"><tr><td>Username or Email: </td><td><input type="text" placeholder="Username or Email" name="name"/></td><td><span id="nameloc"></span></td></tr><tr><td>Password: </td><td><input type="password" placeholder="Password" name="pass"/></br></td><td><span id="pas"></span></td></tr><tr><td><input type="checkbox">Remember Me</input></td><td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="forgot_password.html">Forgot Password?</a></td><tr></table><h4><center><input class="button button1" type="submit" value="Log In"/> </center></h4></form></h5>'
+}
+</script>
+</head>
+
+<body>
+<input type="button" value="Log In" onClick="redirect()"/>
+<span id="red"></span>
+</body>
+
+</html>
